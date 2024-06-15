@@ -50,3 +50,8 @@ body{
 #brown{
     background-color: rgb(194, 149, 121);
 }
+@media (max-width: 400px) {
+    .container{
+        flex-direction: column;
+    }
+}
